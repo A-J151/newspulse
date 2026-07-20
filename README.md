@@ -264,7 +264,7 @@ Future improvements:
 Arti Joshi
 
 GitHub:
-https://github.com/yourusername
+[https://github.com/yourusername](https://github.com/A-J151)
 
 LinkedIn:
 https://www.linkedin.com/in/arti-joshi-173549149/
