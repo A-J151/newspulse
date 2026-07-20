@@ -1,12 +1,12 @@
 const OpenAi = require("openai");
 // dotenv.config();
 
-const client = new OpenAi({
+const client = new OpenAI({
   apiKey: process.env.OPENROUTER_API_KEY,
   baseURL: "https://openrouter.ai/api/v1",
   defaultHeaders: {
-    "HTTPS-Referer": "https://newspulse-cyan.vercel.app",
-    "x-Title": "NewsPulse",
+    "HTTP-Referer": "https://newspulse-cyan.vercel.app",
+    "X-Title": "NewsPulse",
   },
 });
 console.log("OPENROUTER_API_KEY exists:", !!process.env.OPENROUTER_API_KEY);
