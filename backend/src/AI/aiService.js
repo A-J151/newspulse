@@ -9,7 +9,7 @@ const client = new OpenAi({
     "x-Title": "NewsPulse",
   },
 });
-
+console.log("OPENROUTER_API_KEY exists:", !!process.env.OPENROUTER_API_KEY);
 async function generateContent(prompt) {
   const response = await client.chat.completions.create({
     model: "openrouter/free",
