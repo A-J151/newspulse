@@ -1,0 +1,13 @@
+.newslist{
+    flex:1;
+display: grid;
+grid-template-columns: repeat(auto-fill,minmax(340px, 1fr));
+gap:20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.newslist li{
+    display: flex;
+}

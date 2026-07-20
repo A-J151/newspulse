@@ -1,0 +1,10 @@
+.home-layout{
+    display: flex;
+    gap:24px;
+
+    padding: 24px;
+    align-items: flex-start;
+}
+.news-content{
+    flex: 1;
+}

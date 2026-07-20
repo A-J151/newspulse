@@ -1,0 +1,18 @@
+.active{
+background-color: blueviolet;
+color: beige;
+}
+.category-btn {
+border-radius: 8px;
+margin: 4px;
+border-color: white;
+padding: 8px 14px;
+border: 1px solid #ddd;
+
+}
+.sidebar{
+    width:220px;
+    box-sizing: border-box;
+display: flex;
+flex-direction: column;
+}
