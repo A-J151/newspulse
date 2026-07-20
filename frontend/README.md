@@ -111,7 +111,7 @@ NewsPulse
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/newspulse.git
+https://github.com/A-J151/newspulse.git
 ```
 
 ---
