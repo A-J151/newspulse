@@ -19,7 +19,7 @@ function NewsCard({ article }) {
       if (summary) return;
       setLoadingSummary(true);
       const response = await axios.post(
-        "https://newspulse-backend.onrender.com/ai/summary",
+        "https://newspulse-backend-gv14.onrender.com/ai/summary",
         {
           title: article.title,
           content: article.content,
