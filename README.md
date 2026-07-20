@@ -240,18 +240,6 @@ Large Language Model
 
 The controller never communicates directly with the AI provider. It only interacts with the AI Service, making it easy to replace OpenRouter with another provider in the future.
 
----
-
-# 📸 Screenshots
-
-> Add screenshots of:
->
-> - Home Page
-> - AI Summary
-> - Mobile View
-
----
-
 # 🗺️ Roadmap
 
 Future improvements:
