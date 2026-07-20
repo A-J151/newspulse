@@ -151,6 +151,12 @@ BASE_URL=https://openrouter.ai/api/v1
 ```
 
 ---
+## Live Demo
+
+Frontend: https://newspulse-cyan.vercel.app
+
+Backend API:
+https://newspulse-backend-gv14.onrender.com
 
 # ▶️ Running the Application
 
