@@ -5,7 +5,7 @@ const client = new OpenAi({
   apiKey: process.env.OPENROUTER_API_KEY,
   baseURL: "https://openrouter.ai/api/v1",
   defaultHeaders: {
-    "HTTPS-Refere": "http://localhost:5173",
+    "HTTPS-Refere": "https://newspulse-cyan.vercel.app",
     "x-Title": "NewsPulse",
   },
 });

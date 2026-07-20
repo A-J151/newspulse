@@ -9,7 +9,7 @@ const cors = require("cors");
 const aiRoutes = require("./routes/aiRoutes.js");
 const app = express();
 
-app.use(cors({ origin: ["http://localhost:5173"] }));
+app.use(cors({ origin: ["https://newspulse-cyan.vercel.app"] }));
 app.get("/", (req, res) => {
   res.send("NewsPulse Running");
 });

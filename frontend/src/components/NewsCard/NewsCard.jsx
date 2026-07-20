@@ -18,10 +18,13 @@ function NewsCard({ article }) {
     try {
       if (summary) return;
       setLoadingSummary(true);
-      const response = await axios.post("http://localhost:3000/ai/summary", {
-        title: article.title,
-        content: article.content,
-      });
+      const response = await axios.post(
+        "https://newspulse-backend.onrender.com/ai/summary",
+        {
+          title: article.title,
+          content: article.content,
+        },
+      );
       console.log(response.data);
       console.log(response.data);
       setSummary(response.data.summary);
